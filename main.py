@@ -154,7 +154,6 @@ class Ui_Form(object):
         
         if translateBool == 2:
             translator = EasyGoogleTranslate(
-                source_language='pl',
                 target_language='en',
                 timeout=10
             )
