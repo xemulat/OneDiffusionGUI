@@ -132,7 +132,7 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "SAP"))
+        Form.setWindowTitle(_translate("Form", "OneDiffusion GUI"))
         self.stepsLabel.setText(_translate("Form", "Steps"))
         self.guidanceLabel.setText(_translate("Form", "Guidance"))
         self.promptLabel.setText(_translate("Form", "Prompt"))
