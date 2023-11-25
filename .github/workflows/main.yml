@@ -1,7 +1,8 @@
 name: Build and Upload
 
 on:
-  workflow_run
+  workflow_call:
+    
 
 jobs:
   build:
